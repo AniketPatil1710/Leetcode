@@ -2,7 +2,7 @@ class Solution {
 public:
     string freqAlphabets(string s) {
         
-         int i = s.length()-1, st;
+        int i = s.length()-1, st;
         string ans="";
         while(i>=0){
             if(s[i]=='#')
