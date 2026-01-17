@@ -1,55 +1,63 @@
-class Solution {
-private:
-    void bfs(int i , int j , vector<vector<int>> &vis , vector<vector<char>> &grid)
+class Solution{
+
+private :
+
+    bool check(int row,int col,int n,int m)
     {
+        if((row>=0 && row<n)&&(col>=0 && col<m))
+        {
+            return true ;
+        }
+        return false ;
+    }
+
+    void dfs(int i,int j , vector<vector<bool>> &vis , vector<vector<char>> &grid)
+    {
+        vis[i][j] = true ;
         int n = grid.size() ;
         int m = grid[0].size() ;
-        vis[i][j] = 1 ;
-        queue<pair<int,int>> q ;
-        q.push({i,j}) ;
 
-        int dx[] = {1,0,0,-1};
-        int dy[] = {0,1,-1,0};
-        while(!q.empty())
+        int dx[] = {-1, 1, 0, 0};
+        int dy[] = {0, 0, -1, 1};
+
+
+        for(int k = 0 ; k<4 ; ++k)
         {
-            auto it = q.front() ;
-            q.pop();
-            int x = it.first ;
-            int y = it.second ;
+            int row = i + dx[k] ;
+            int col = j + dy[k] ;
 
-            for(int k=0 ; k<4 ; ++k)
+            if (check(row, col, n, m) && !vis[row][col] && grid[row][col] == '1') {
+                dfs(row, col, vis, grid);
+            }
+
+        }
+
+
+    }
+
+public:
+
+    int numIslands(vector<vector<char>> &grid){
+
+        int n = grid.size() ;
+        int m = grid[0].size() ;
+
+        vector<vector<bool>> vis(n,vector<bool>(m,false)) ;
+
+        int num_Islands = 0 ;
+
+        for(int i=0 ; i<n ; i++)
+        {
+            for(int j=0 ; j<m ; j++)
             {
-                int dxp = dx[k]+x ;
-                int dyp = dy[k]+y ;
-
-                if(dxp>=0 and dyp>=0 and dxp<n and dyp<m and vis[dxp][dyp]==0 and grid[dxp][dyp]=='1')
+                if(grid[i][j]=='1' && vis[i][j]==false)
                 {
-                    vis[dxp][dyp]=1;
-                    q.push({dxp,dyp});
+                    dfs(i,j,vis,grid);
+                    ++num_Islands ;
                 }
             }
-        }    
-    }    
-public:
-    int numIslands(vector<vector<char>>& grid) {
-       
-       int n = grid.size() ;
-       int m = grid[0].size() ;
-       int ans = 0 ;
-
-       vector<vector<int>> vis(n,vector<int> (m,0));
-
-       for(int i=0 ; i<n ; ++i)
-       {
-           for(int j=0 ; j<m ; ++j)
-           {
-               if(grid[i][j]== '1'  and vis[i][j]==0)
-               {
-                   bfs(i,j,vis,grid);
-                   ans++;
-               }
-           }
-       }
-       return ans ;
+        }
+        return num_Islands;
     }
 };
+
