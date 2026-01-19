@@ -34,7 +34,7 @@ void dfs(int i, int j , vector<vector<int>> &grid , vector<vector<bool>> &vis ,i
     
             perimeter++;
         }
-        else if(grid[i][j]==1 && vis[i][j]==0)
+        else if(grid[i][j]==1 && vis[i][j]==false)
         {
             dfs(row,col,grid,vis,perimeter);
         }
