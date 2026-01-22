@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/AniketPatil1710/Leetcode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AniketPatil1710/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/AniketPatil1710/Leetcode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/AniketPatil1710/Leetcode/tree/master/0994-rotting-oranges) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/AniketPatil1710/Leetcode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AniketPatil1710/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/AniketPatil1710/Leetcode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/AniketPatil1710/Leetcode/tree/master/0994-rotting-oranges) |
@@ -39,8 +41,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/AniketPatil1710/Leetcode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
+| [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AniketPatil1710/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/AniketPatil1710/Leetcode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/AniketPatil1710/Leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/AniketPatil1710/Leetcode/tree/master/1020-number-of-enclaves) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 <!---LeetCode Topics End-->
