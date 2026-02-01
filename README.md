@@ -55,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/AniketPatil1710/Leetcode/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
