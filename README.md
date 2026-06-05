@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0119-pascals-triangle-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0130-surrounded-regions](https://github.com/AniketPatil1710/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/AniketPatil1710/Leetcode/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0119-pascals-triangle-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 ## String
 |  |
