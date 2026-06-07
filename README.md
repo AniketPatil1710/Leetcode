@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AniketPatil1710/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/AniketPatil1710/Leetcode/tree/master/0733-flood-fill) |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
 | [0994-rotting-oranges](https://github.com/AniketPatil1710/Leetcode/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/AniketPatil1710/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1779-find-nearest-point-that-has-the-same-x-or-y-coordinate](https://github.com/AniketPatil1710/Leetcode/tree/master/1779-find-nearest-point-that-has-the-same-x-or-y-coordinate) |
@@ -80,4 +81,29 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/AniketPatil1710/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/AniketPatil1710/Leetcode/tree/master/0018-4sum) |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
