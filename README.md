@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0130-surrounded-regions](https://github.com/AniketPatil1710/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/AniketPatil1710/Leetcode/tree/master/0200-number-of-islands) |
+| [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/AniketPatil1710/Leetcode/tree/master/0695-max-area-of-island) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AniketPatil1710/Leetcode/tree/master/0001-two-sum) |
+| [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/AniketPatil1710/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/AniketPatil1710/Leetcode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/AniketPatil1710/Leetcode/tree/master/0075-sort-colors) |
+| [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 | [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
 ## Divide and Conquer
 |  |
@@ -108,5 +111,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting Sort
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 | [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
