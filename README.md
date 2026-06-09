@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/AniketPatil1710/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1779-find-nearest-point-that-has-the-same-x-or-y-coordinate](https://github.com/AniketPatil1710/Leetcode/tree/master/1779-find-nearest-point-that-has-the-same-x-or-y-coordinate) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/AniketPatil1710/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [3689-maximum-total-subarray-value-i](https://github.com/AniketPatil1710/Leetcode/tree/master/3689-maximum-total-subarray-value-i) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -113,4 +114,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 | [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
+## Greedy
+|  |
+| ------- |
+| [3689-maximum-total-subarray-value-i](https://github.com/AniketPatil1710/Leetcode/tree/master/3689-maximum-total-subarray-value-i) |
 <!---LeetCode Topics End-->
