@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
+| [0628-maximum-product-of-three-numbers](https://github.com/AniketPatil1710/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0695-max-area-of-island](https://github.com/AniketPatil1710/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/AniketPatil1710/Leetcode/tree/master/0733-flood-fill) |
 | [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/AniketPatil1710/Leetcode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/AniketPatil1710/Leetcode/tree/master/0075-sort-colors) |
 | [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
+| [0628-maximum-product-of-three-numbers](https://github.com/AniketPatil1710/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0912-sort-an-array](https://github.com/AniketPatil1710/Leetcode/tree/master/0912-sort-an-array) |
 ## Divide and Conquer
 |  |
@@ -120,4 +122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3689-maximum-total-subarray-value-i](https://github.com/AniketPatil1710/Leetcode/tree/master/3689-maximum-total-subarray-value-i) |
+## Math
+|  |
+| ------- |
+| [0628-maximum-product-of-three-numbers](https://github.com/AniketPatil1710/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 <!---LeetCode Topics End-->
