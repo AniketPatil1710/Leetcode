@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/AniketPatil1710/Leetcode/tree/master/0075-sort-colors) |
 | [0119-pascals-triangle-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0130-surrounded-regions](https://github.com/AniketPatil1710/Leetcode/tree/master/0130-surrounded-regions) |
+| [0152-maximum-product-subarray](https://github.com/AniketPatil1710/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0200-number-of-islands](https://github.com/AniketPatil1710/Leetcode/tree/master/0200-number-of-islands) |
 | [0229-majority-element-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0229-majority-element-ii) |
 | [0463-island-perimeter](https://github.com/AniketPatil1710/Leetcode/tree/master/0463-island-perimeter) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/AniketPatil1710/Leetcode/tree/master/0119-pascals-triangle-ii) |
+| [0152-maximum-product-subarray](https://github.com/AniketPatil1710/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0542-01-matrix](https://github.com/AniketPatil1710/Leetcode/tree/master/0542-01-matrix) |
 ## String
 |  |
