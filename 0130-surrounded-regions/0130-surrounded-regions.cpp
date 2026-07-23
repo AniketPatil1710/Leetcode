@@ -1,96 +1,61 @@
-class Solution {
+
+class Solution{
 private:
-
-    vector<int> delRow = {-1, 0, 1, 0};
-    vector<int> delCol = {0, 1, 0, -1};
-
-    bool check(int &i, int &j, 
-                 int &n, int &m) {
-        
-        
-        if(i < 0 || i >= n) return false;
-        if(j < 0 || j >= m) return false;
-        
-        
-        return true;
+    bool check(int row,int col,int n ,int m)
+    {
+        return (row>=0 && row<n && col>=0 && col<m) ;
     }
+    void dfs(int i,int j,vector<vector<bool>> &vis , vector<vector<char>> &mat)
+    {
+        vis[i][j] = true ;
 
-    void dfs(int row, int col, 
-             vector<vector<bool>> &vis,
-             vector<vector<char>> &mat, 
-             int &n, int &m) {
-            
-        
-        vis[row][col] = true;
-        
-        
-        for(int i=0; i < 4; i++) {
-            
-            int nRow = row + delRow[i];
-            int nCol = col + delCol[i];
+        int n = mat.size() ;
+        int m = mat[0].size() ;
 
-            if(check(nRow, nCol, n, m) &&
-                mat[nRow][nCol] == 'O' &&
-                !vis[nRow][nCol] ) {
-                dfs(nRow, nCol, vis, mat, n, m);
+        int delRow[] = {-1,0,+1,0};
+        int delCol[] = {0,-1,0,+1};
+
+        for(int k=0 ; k<4 ; ++k)
+        {
+            int n_Row = i+delRow[k];
+            int n_Col = j+delCol[k];
+
+            if(check(n_Row,n_Col,n,m) && !vis[n_Row][n_Col] && mat[n_Row][n_Col]=='O')
+            {
+                dfs(n_Row,n_Col,vis,mat);
             }
         }
     }
-    
-    
 public:
-    
-    vector<vector<char>> 
-        solve(vector<vector<char>> &mat) {
+    vector<vector<char>> solve(vector<vector<char>>& mat) {
        
-        
-        int n = mat.size();
-        int m = mat[0].size();
-       
-       
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
-       
-        for(int j=0; j < m; j++) {
-            
-            
-            
-            if(!vis[0][j] && mat[0][j] == 'O') {
-                
-                dfs(0, j, vis, mat, n, m); 
-            }
-           
-            
-            if(!vis[n-1][j] && mat[n-1][j] == 'O') {
-                
-                dfs(n-1, j, vis, mat, n, m); 
-            }
-        }
-        
-        
-        for(int i=0; i < n; i++) {
-            
-            if(!vis[i][0] && mat[i][0] == 'O') {
-                
-                dfs(i, 0, vis, mat, n, m); 
-            }
-            
-            if(!vis[i][m-1] && mat[i][m-1] == 'O') {
-                
-                dfs(i, m-1, vis, mat, n, m); 
-            }
-        }
-        
-        
-        for(int i=0; i < n; i++) {
-            for(int j=0; j < m; j++) {
-                if(mat[i][j] == 'O' && 
-                  !vis[i][j]) {
-                    
-                    mat[i][j] = 'X';
+       int n = mat.size() ;
+       int m = mat[0].size() ;
+
+       vector<vector<bool>> vis(n,vector<bool>(m,false)) ;
+
+       for(int i=0 ; i<n ; ++i)
+       {
+            for(int j=0 ; j<m ; ++j)
+            {
+                if(!vis[i][j] && mat[i][j]=='O' && (i==0||i==n-1||j==0 || j==m-1))
+                {
+                    dfs(i,j,vis,mat);
                 }
             }
-        }
-        
-        return mat;
+       }
+
+       for(int i=0 ; i<n ; ++i)
+       {
+            for(int j=0 ; j<m ; ++j)
+            {
+                if(!vis[i][j] && mat[i][j]=='O')
+                {
+                    mat[i][j]='X';
+                }
+            }
+       }
+
+       return mat ;
     }
 };
